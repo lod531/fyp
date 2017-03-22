@@ -1,0 +1,90 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{longtable}
+\graphicspath{ {images/} }
+\doublespacing
+
+\begin{document}
+\title{Using Machine Learning For DOTA2 Match Prediction}
+\author{Andrius Buinovskij}
+\maketitle
+
+    \section{Dictionary}
+
+	\par There are some more obscure terms littered throughout the text. Here is a short explanation for each one.
+
+        \begin{itemize}
+            \item A \textbf{feature} is some aspect of something. For instance, a coin may have a mass, an area, an average colour and so on. Each of those are a feature.
+            \item \textbf{Classification} is the problem of identifying to which of a set of categories (sub-populations) a new observation belongs, on the basis of a training set of data containing observations (or instances) whose category membership is known.\footnote{Wikipedia.} \\
+
+        \end{itemize}
+
+    \section{Introduction}
+
+        \par This text describes most of contemporary machine learning techniques, and then shows their application in match outcome prediction in a game of Dota 2, namely, which team will win, based on players' hero selection. In other words, it is classifying team composition as preferring a radiant win, or preferring a dire win.
+
+        \par The game in question, Defence of the Ancients (DOTA) 2, is very nuanced and has a plethora of mechanics. For the purposes of this paper however, it will suffice to say that in a game of DOTA, two teams, "Dire" and "Radiant"\footnote{Dire being evil, Radiant being good.}, five players per team, try to destroy the other team's base. At the beginning of a game, each player chooses a "hero" to play, a character within the game. Different heroes have different abilities, and some heroes synergize, whilst others cancel each other out. As of writing of this text, there are 113 different heroes, resulting in a bewildering number of possible team compositions.
+
+    \section{Literature Review}
+
+        \par The machine learning techniques used are: Nearest Neighbours, Neural Networks, Support Vector Machines and Boosting.
+
+        \subsection{Nearest Neighbours}
+
+            \subsubsection{Nearest Neighbours Logic}
+
+                \par The simple logic behind the nearest neighbours approach to machine learning is: when asked to do something, one should see if the scenario in question has ocurred before, and what was done then.
+
+                \par Let us say that we are trying to build an algorithm which will be used as a part of vending machines, namely, deciding on the value of coins that are inserted into the machine. Let us also say that the value of the coin will be decided based solely on it's mass (for simplicity), and that we have a database of standard coins already weighed.
+
+                \par A coin is inserted into the vending machine, how can we tell it's precise value? All we have to go by is the coin's mass. Currently, our database of previous cases is illustrated below.
+
+                \begin{figure}[h]
+                    \caption{A visualization of coins placed on mass axis}
+                    \centering
+                    \includegraphics[width=\textwidth]{coinAxis}
+                \end{figure}
+
+                \par So we have three coins of mass of 2, 5 and 10 grams. Let us say a coin is inserted into the machine, of mass of 6 grams. Here it is on our graph.
+
+                \begin{figure}[h]
+                    \caption{Coin graph including mismatching coin}
+                    \centering
+                    \includegraphics[width=\textwidth]{coinAxis2}
+                \end{figure}
+
+                \par We would like to decipher the value of the newly inserted coin. An immediatelly obvious approach is to query our databse of already known mass-value pairs of coins to find a coin that most closely resembles the new coin, and say that the two are the same. Within the graph, this is simply looking for the nearest neighbouring coin\footnote{Hence the name of the method, Nearest Neighbours.} Here it is again on our graph.
+
+                \begin{figure}[h]
+                    \caption{The nearest neighbour to the unknown coin}
+                    \centering
+                    \includegraphics[width=\textwidth]{nearestNeighbour}
+                \end{figure}
+
+                \par Having found the nearest neighbour, the 20 cent coin, we conclude that the new coin must also be a 20 cent coin, perhaps with some imperfections.
+
+                \par This short example illustrates the benefits and shortcomings of Nearest Neighbours. The method is simple and logical, and directly uses experience of the past. However, it is not extracting underlying patterns out from underneath the data, but is instead simply\footnote{Not for long.} looking to the past for similar cases.
+
+            \newpage
+
+            \subsection{Adding complexity and kD Trees}
+
+                \par Our coin example was quite simple, using a single feature. A single feature gives rise to a single axis, however, we could have used more. For instance, we could have used the coin's area, which would have looked like the following:
+                
+                \begin{figure}[h]
+                    \caption{A visualization of coins places on area and mass axes}
+                    \centering
+                    \includegraphics[width=\textwidth]{twoAxes}
+                \end{figure}
+
+                \par The search for a nearest neighbour is now a two-dimensional one, which we can still handle intuitively. However, as the number of features, and consequently axes, grows, the question of how does one find nearest neighbours arises.
+
+                \par There are a number of algorithms 
+
+
+
+
+
+
+\end{document}

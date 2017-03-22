@@ -1,0 +1,4 @@
+just calling '1' on every single one, whether it's radiant or dire win, gives 0.614236979759
+
+vanilla nearest neighbours                                                    0.544234705481
+
