@@ -1,46 +1,24 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
-import argparse
-import sys
-import random
 import numpy as np
+from sklearn.preprocessing import OneHotEncoder
 
-from sklearn.datasets import fetch_mldata
-from sklearn.svm import LinearSVC
+testArray = np.zeros((2, 2))
 
-def main():
-    mnist = fetch_mldata('MNIST original')
-    allData = mnist.data
-    allLabels = mnist.target
-    numberOfSamples = 15000
-    trainingData = np.empty([numberOfSamples, 784])
-    trainingLabels = np.empty([numberOfSamples])
-    for i in range(0, numberOfSamples):
-        j = random.randint(i, 60000)
-        trainingData[i] = allData[j]
-        trainingLabels[i] = allLabels[j]
-    clf = LinearSVC()
-    print(clf)
-    clf.fit(trainingData, trainingLabels)
+testArray[0][1] = 1
 
+encoder = OneHotEncoder([2, 2])
 
+encoder.fit(testArray)
 
-    results = clf.predict(allData[60000:])
-    correct = 0
-    for i in range(0, 10000):
-        if results[i] == allLabels[i+60000]:
-            correct = correct + 1
+print testArray
 
-    print(correct)
+print encoder.transform(testArray).toarray()
 
+testArray2 = np.zeros((2, 2))
 
-def splitDataset(dataset, numberOfTrainingExamples, trainingData, testingData):
-    values = dataset.data
-    labels = dataset.target
-    print(values)
-    
+testArray2[1][1] = 1
 
-if __name__ == "__main__":
-    main()
+encoder.fit(testArray2)
+
+print encoder.transform(testArray2).toarray()
+
+print np.zeros((2, 2))

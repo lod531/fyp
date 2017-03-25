@@ -38,7 +38,6 @@ for i in range(0, len(radiantHeroes1)):
                 (direHeroes[j] == direHeroes1[i]) 
         j = j + 1
     if not found:
-        print "APPENDED"
         radiantHeroes.append(radiantHeroes1[i])
         direHeroes.append(direHeroes1[i])
         matchOutcomes.append(matchOutcomes1[i])
