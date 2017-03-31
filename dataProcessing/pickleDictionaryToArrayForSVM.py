@@ -12,7 +12,7 @@ radiantHeroes = resultDictionary["radiantHeroes"]
 matchOutcomes = resultDictionary["matchOutcomes"]
 
 #two thirds of the matches go to training, one third to testing
-numberOfTargetMatches = 3000
+numberOfTargetMatches = 10000
 numberOfTestMatches = len(matchOutcomes) - numberOfTargetMatches
 #reason for magic number 11 there is 5 heroes per team plus the
 #match outcome = 5+5+1 = 11

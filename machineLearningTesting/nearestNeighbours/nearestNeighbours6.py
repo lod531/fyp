@@ -34,11 +34,10 @@ neighbors = KNeighborsClassifier(n_neighbors = 4, algorithm = 'ball_tree', weigh
 
 neighbors.fit(trainingData, trainingLabels)
 
-with open("kNeighborsClassifierBallTree.pickle", 'wb') as theFile:
-    pickle.dump(neighbors, theFile)
 
 
-'''neighbors = pickle.load(open("kNeighborsClassifierBallTree.pickle", 'rb'))'''
 
-neighbors.set_params(n_neighbors = 1)
-print neighbors.score(testData, testLabels)
+for i in range(1, 11):
+    print i
+    neighbors.set_params(n_neighbors = i, weights='distance')
+    print neighbors.score(testData, testLabels)
