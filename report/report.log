@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.5)  20 MAR 2017 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.5)  24 APR 2017 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -75,35 +75,330 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@tables=\count91
 \c@LT@chunks=\count92
 \LT@p@ftn=\toks15
-) (./report.aux)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2016/03/03 v3.3 programmable bibliographies (PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_legacy.sty
+Package: biblatex_legacy 2016/03/03 v3.3 programmable bibliographies (bibtex) (
+PK/JW/AB)
+
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count93
+)
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count94
+
+(/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count95
+\c@listtotal=\count96
+\c@listcount=\count97
+\c@liststart=\count98
+\c@liststop=\count99
+\c@citecount=\count100
+\c@citetotal=\count101
+\c@multicitecount=\count102
+\c@multicitetotal=\count103
+\c@instcount=\count104
+\c@maxnames=\count105
+\c@minnames=\count106
+\c@maxitems=\count107
+\c@minitems=\count108
+\c@citecounter=\count109
+\c@savedcitecounter=\count110
+\c@uniquelist=\count111
+\c@uniquename=\count112
+\c@refsection=\count113
+\c@refsegment=\count114
+\c@maxextrayear=\count115
+\c@maxextraalpha=\count116
+\c@abbrvpenalty=\count117
+\c@highnamepenalty=\count118
+\c@lownamepenalty=\count119
+\c@maxparens=\count120
+\c@parenlevel=\count121
+\blx@tempcnta=\count122
+\blx@tempcntb=\count123
+\blx@tempcntc=\count124
+\blx@maxsection=\count125
+\blx@maxsegment=\count126
+\blx@notetype=\count127
+\blx@parenlevel@text=\count128
+\blx@parenlevel@foot=\count129
+\labelnumberwidth=\skip47
+\labelalphawidth=\skip48
+\shorthandwidth=\skip49
+\biblabelsep=\skip50
+\bibitemsep=\skip51
+\bibnamesep=\skip52
+\bibinitsep=\skip53
+\bibparsep=\skip54
+\bibhang=\skip55
+\blx@auxin=\read1
+\blx@auxout=\write3
+\c@mincomprange=\count130
+\c@maxcomprange=\count131
+\c@mincompwidth=\count132
+\c@labelname=\count133
+\c@savedlabelname=\count134
+\c@author=\count135
+\c@savedauthor=\count136
+\c@shortauthor=\count137
+\c@savedshortauthor=\count138
+\c@editor=\count139
+\c@savededitor=\count140
+\c@editora=\count141
+\c@savededitora=\count142
+\c@editorb=\count143
+\c@savededitorb=\count144
+\c@editorc=\count145
+\c@savededitorc=\count146
+\c@shorteditor=\count147
+\c@savedshorteditor=\count148
+\c@bookauthor=\count149
+\c@savedbookauthor=\count150
+\c@translator=\count151
+\c@savedtranslator=\count152
+\c@annotator=\count153
+\c@savedannotator=\count154
+\c@commentator=\count155
+\c@savedcommentator=\count156
+\c@introduction=\count157
+\c@savedintroduction=\count158
+\c@foreword=\count159
+\c@savedforeword=\count160
+\c@afterword=\count161
+\c@savedafterword=\count162
+\c@holder=\count163
+\c@savedholder=\count164
+\c@namea=\count165
+\c@savednamea=\count166
+\c@nameb=\count167
+\c@savednameb=\count168
+\c@namec=\count169
+\c@savednamec=\count170
+\c@institution=\count171
+\c@savedinstitution=\count172
+\c@language=\count173
+\c@savedlanguage=\count174
+\c@location=\count175
+\c@savedlocation=\count176
+\c@organization=\count177
+\c@savedorganization=\count178
+\c@origlocation=\count179
+\c@savedoriglocation=\count180
+\c@origpublisher=\count181
+\c@savedorigpublisher=\count182
+\c@pageref=\count183
+\c@savedpageref=\count184
+\c@publisher=\count185
+\c@savedpublisher=\count186
+\c@lista=\count187
+\c@savedlista=\count188
+\c@listb=\count189
+\c@savedlistb=\count190
+\c@listc=\count191
+\c@savedlistc=\count192
+\c@listd=\count193
+\c@savedlistd=\count194
+\c@liste=\count195
+\c@savedliste=\count196
+\c@listf=\count197
+\c@savedlistf=\count198
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2016/03/03 v3.3 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex_legacy.def' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex_legacy.def
+File: biblatex_legacy.def 
+\c@textcitecount=\count199
+\c@textcitetotal=\count266
+\c@textcitemaxnames=\count267
+\c@biburlnumpenalty=\count268
+\c@biburlucpenalty=\count269
+\c@biburllcpenalty=\count270
+\c@smartand=\count271
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2016/03/03 v3.3 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count272
+\c@bbx:relatedtotal=\count273
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2016/03/03 v3.3 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/11/12 v1.18 mathematical typesetting tools
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count274
+\calc@Bcount=\count275
+\calc@Adimen=\dimen106
+\calc@Bdimen=\dimen107
+\calc@Askip=\skip56
+\calc@Bskip=\skip57
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count276
+\calc@Cskip=\skip58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen108
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count277
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count278
+\leftroot@=\count279
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count280
+\DOTSCASE@=\count281
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen110
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count282
+\c@MaxMatrixCols=\count283
+\dotsspace@=\muskip11
+\c@parentequation=\count284
+\dspbrk@lvl=\count285
+\tag@help=\toks17
+\row@=\count286
+\column@=\count287
+\maxfields@=\count288
+\andhelp@=\toks18
+\eqnshift@=\dimen111
+\alignsep@=\dimen112
+\tagshift@=\dimen113
+\tagwidth@=\dimen114
+\totwidth@=\dimen115
+\lineht@=\dimen116
+\@envbody=\toks19
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count289
+\l_MT_multwidth_dim=\dimen117
+\origjot=\skip62
+\l_MT_shortvdotswithinadjustabove_dim=\dimen118
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen119
+\l_MT_above_intertext_sep=\dimen120
+\l_MT_below_intertext_sep=\dimen121
+\l_MT_above_shortintertext_sep=\dimen122
+\l_MT_below_shortintertext_sep=\dimen123
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2016/03/03 v3.3 biblatex localization (PK/JW/AB)
+)
+\@quotelevel=\count290
+\@quotereset=\count291
+
+(./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
-\scratchdimen=\dimen106
-\scratchbox=\box30
-\nofMPsegments=\count94
-\nofMParguments=\count95
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count96
-\MPscratchDim=\dimen107
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count292
+\scratchdimen=\dimen124
+\scratchbox=\box32
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen125
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks22
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -152,83 +447,206 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 18.
+Package biblatex Info: No input encoding detected.
+(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'ascii'.
+\openout3 = `report-blx.bib'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'report.bbl' found.
+
+(./report.bbl)
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 18.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<images/coinAxis.png, id=16, 985.6825pt x 192.72pt>
+<images/machineLearningGeneralNotion.png, id=16, 1402.23875pt x 469.755pt>
+File: images/machineLearningGeneralNotion.png Graphic file (type png)
+
+<use images/machineLearningGeneralNotion.png>
+Package pdftex.def Info: images/machineLearningGeneralNotion.png used on input 
+line 44.
+(pdftex.def)             Requested size: 390.0pt x 130.64885pt.
+ [3 <./images/machineLearningGeneralNotion.png>] [4] <images/coinAxis.png, id=2
+5, 985.6825pt x 192.72pt>
 File: images/coinAxis.png Graphic file (type png)
- <use images/coinAxis.png>
-Package pdftex.def Info: images/coinAxis.png used on input line 46.
+
+<use images/coinAxis.png>
+Package pdftex.def Info: images/coinAxis.png used on input line 72.
 (pdftex.def)             Requested size: 390.0pt x 76.25146pt.
 
-<images/coinAxis2.png, id=18, 985.6825pt x 252.945pt>
+<images/coinAxis2.png, id=26, 985.6825pt x 252.945pt>
 File: images/coinAxis2.png Graphic file (type png)
 
 <use images/coinAxis2.png>
-Package pdftex.def Info: images/coinAxis2.png used on input line 54.
+Package pdftex.def Info: images/coinAxis2.png used on input line 81.
 (pdftex.def)             Requested size: 390.0pt x 100.08006pt.
+
+<images/nearestNeighbour.png, id=27, 985.6825pt x 393.47pt>
+File: images/nearestNeighbour.png Graphic file (type png)
+
+<use images/nearestNeighbour.png>
+Package pdftex.def Info: images/nearestNeighbour.png used on input line 89.
+(pdftex.def)             Requested size: 390.0pt x 155.6801pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/nearestNeighbour.png, id=19, 985.6825pt x 393.47pt>
-File: images/nearestNeighbour.png Graphic file (type png)
-
-<use images/nearestNeighbour.png>
-Package pdftex.def Info: images/nearestNeighbour.png used on input line 62.
-(pdftex.def)             Requested size: 390.0pt x 155.6801pt.
- [3 <./images/coinAxis.png>] [4 <./images/coinAxis2.png> <./images/nearestNeigh
-bour.png>]
-<images/twoAxes.png, id=29, 1055.945pt x 644.4075pt>
+[5 <./images/coinAxis.png> <./images/coinAxis2.png>] [6 <./images/nearestNeighb
+our.png>] <images/twoAxes.png, id=37, 1055.945pt x 644.4075pt>
 File: images/twoAxes.png Graphic file (type png)
- <use images/twoAxes.png>
-Package pdftex.def Info: images/twoAxes.png used on input line 78.
-(pdftex.def)             Requested size: 390.0pt x 238.00423pt.
 
-[5 <./images/twoAxes.png>] (./report.aux) ) 
+<use images/twoAxes.png>
+Package pdftex.def Info: images/twoAxes.png used on input line 106.
+(pdftex.def)             Requested size: 390.0pt x 238.00423pt.
+ [7 <./images/twoAxes.png>] [8] [9]
+<images/kdTreeFirstDivision.png, id=50, 1206.5075pt x 564.1075pt>
+File: images/kdTreeFirstDivision.png Graphic file (type png)
+
+<use images/kdTreeFirstDivision.png>
+Package pdftex.def Info: images/kdTreeFirstDivision.png used on input line 157.
+
+(pdftex.def)             Requested size: 390.0pt x 182.34288pt.
+ [10 <./images/kdTreeFirstDivision.png>]
+<images/kdTreeSecondDivision.png, id=55, 885.3075pt x 724.7075pt>
+File: images/kdTreeSecondDivision.png Graphic file (type png)
+
+<use images/kdTreeSecondDivision.png>
+Package pdftex.def Info: images/kdTreeSecondDivision.png used on input line 167
+.
+(pdftex.def)             Requested size: 390.0pt x 319.25932pt.
+ [11 <./images/kdTreeSecondDivision.png>]
+[12] <images/balltree0.png, id=63, 1035.87pt x 805.0075pt>
+File: images/balltree0.png Graphic file (type png)
+
+<use images/balltree0.png>
+Package pdftex.def Info: images/balltree0.png used on input line 191.
+(pdftex.def)             Requested size: 390.0pt x 303.08086pt.
+ [13 <./images/balltree0.png>]
+<images/balltree1.png, id=69, 1035.87pt x 805.0075pt>
+File: images/balltree1.png Graphic file (type png)
+
+<use images/balltree1.png>
+Package pdftex.def Info: images/balltree1.png used on input line 201.
+(pdftex.def)             Requested size: 390.0pt x 303.08086pt.
+ [14 <./images/balltree1.png>]
+<images/balltree2.png, id=74, 1035.87pt x 805.0075pt>
+File: images/balltree2.png Graphic file (type png)
+
+<use images/balltree2.png>
+Package pdftex.def Info: images/balltree2.png used on input line 211.
+(pdftex.def)             Requested size: 390.0pt x 303.08086pt.
+ [15 <./images/balltree2.png>]
+<images/balltree3.png, id=79, 1035.87pt x 805.0075pt>
+File: images/balltree3.png Graphic file (type png)
+
+<use images/balltree3.png>
+Package pdftex.def Info: images/balltree3.png used on input line 221.
+(pdftex.def)             Requested size: 390.0pt x 303.08086pt.
+ [16 <./images/balltree3.png>] [17]
+<images/neuron.png, id=87, 1417.295pt x 593.21625pt>
+File: images/neuron.png Graphic file (type png)
+ <use images/neuron.png>
+Package pdftex.def Info: images/neuron.png used on input line 241.
+(pdftex.def)             Requested size: 390.0pt x 163.23001pt.
+
+[18 <./images/neuron.png>] [19]
+<images/lossFunction0.png, id=100, 1553.805pt x 879.285pt>
+File: images/lossFunction0.png Graphic file (type png)
+
+<use images/lossFunction0.png>
+Package pdftex.def Info: images/lossFunction0.png used on input line 271.
+(pdftex.def)             Requested size: 390.0pt x 220.6928pt.
+ [20 <./images/lossFunction0.png>]
+<images/lossFunction1.png, id=105, 1553.805pt x 879.285pt>
+File: images/lossFunction1.png Graphic file (type png)
+
+<use images/lossFunction1.png>
+Package pdftex.def Info: images/lossFunction1.png used on input line 283.
+(pdftex.def)             Requested size: 390.0pt x 220.6928pt.
+ [21 <./images/lossFunction1.png>] [22]
+<images/neuron2.png, id=113, 1417.295pt x 593.21625pt>
+File: images/neuron2.png Graphic file (type png)
+
+<use images/neuron2.png>
+Package pdftex.def Info: images/neuron2.png used on input line 311.
+(pdftex.def)             Requested size: 390.0pt x 163.23001pt.
+ [23 <./images/neuron2.png>]
+<images/neuralNetwork.png, id=118, 1610.015pt x 735.74875pt>
+File: images/neuralNetwork.png Graphic file (type png)
+
+<use images/neuralNetwork.png>
+Package pdftex.def Info: images/neuralNetwork.png used on input line 325.
+(pdftex.def)             Requested size: 390.0pt x 178.22238pt.
+ [24 <./images/neuralNetwork.png>] [25]
+<images/poorClassifiers.png, id=127, 1553.805pt x 1207.51125pt>
+File: images/poorClassifiers.png Graphic file (type png)
+
+<use images/poorClassifiers.png>
+Package pdftex.def Info: images/poorClassifiers.png used on input line 353.
+(pdftex.def)             Requested size: 390.0pt x 303.0747pt.
+ [26 <./images/poorClassifiers.png>]
+<images/betterClassifier.png, id=132, 1553.805pt x 1207.51125pt>
+File: images/betterClassifier.png Graphic file (type png)
+
+<use images/betterClassifier.png>
+Package pdftex.def Info: images/betterClassifier.png used on input line 365.
+(pdftex.def)             Requested size: 390.0pt x 303.0747pt.
+ [27 <./images/betterClassifier.png>]
+Overfull \hbox (0.27626pt too wide) in paragraph at lines 373--373
+[]\OT1/cmr/m/n/12 Yaser Abu-Mostafa. \OT1/cmr/m/it/12 Lec-ture 09 - The Lin-ear
+ Model II\OT1/cmr/m/n/12 . 2012. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cm
+tt/m/n/12 https :
+ []
+
+
+Overfull \hbox (10.54pt too wide) in paragraph at lines 373--373
+[]\OT1/cmr/m/n/12 Patrick Wil-son. \OT1/cmr/m/it/12 16. Learn-ing: Sup-port Vec
+-tor Ma-chines\OT1/cmr/m/n/12 . 2014. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\O
+T1/cmtt/m/n/12 https :
+ []
+
+[28] [29] (./report.aux)
+Package logreq Info: Writing requests to 'report.run.xml'.
+\openout1 = `report.run.xml'.
+
+ )
+(\end occurred when \iftrue on line 11 was incomplete) 
 Here is how much of TeX's memory you used:
- 1654 strings out of 494953
- 23666 string characters out of 6180978
- 77705 words of memory out of 5000000
- 4934 multiletter control sequences out of 15000+600000
- 8808 words of font info for 31 fonts, out of 8000000 for 9000
+ 7754 strings out of 494953
+ 125329 string characters out of 6180978
+ 269400 words of memory out of 5000000
+ 10933 multiletter control sequences out of 15000+600000
+ 13007 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,8n,23p,701b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on report.pdf (5 pages, 166654 bytes).
+ 38i,8n,48p,818b,960s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on report.pdf (29 pages, 1164642 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 191 PDF objects out of 1000 (max. 8388607)
+ 108 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

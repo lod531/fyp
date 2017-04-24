@@ -1,0 +1,204 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{machineLearningBackground}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Abu-Mostafa}{A.-M.}%
+     {Yaser}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMY1}
+  \strng{fullhash}{AMY1}
+  \field{sortinit}{A}
+  \field{title}{Lecture 01 - The Learning Problem}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=mbyG85GZ0PI
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{logisticRegression}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Abu-Mostafa}{A.-M.}%
+     {Yaser}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMY1}
+  \strng{fullhash}{AMY1}
+  \field{sortinit}{A}
+  \field{title}{Lecture 09 - The Linear Model II}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=qSTHZvN8hzs
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{caltechNeuralNetwork}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Aby-Mostafa}{A.-M.}%
+     {Yaser}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AMY2}
+  \strng{fullhash}{AMY2}
+  \field{sortinit}{A}
+  \field{title}{Lecture 10 - Neural Networks}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=Ih5Mr93E-2c
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{kNearestNeighbours}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Friedman}{F.}%
+     {Jerome~H.}{J.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bentley}{B.}%
+     {Jon~Louis}{J.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Finkel}{F.}%
+     {Raphael~Ari}{R.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{FJHBJLFRA1}
+  \strng{fullhash}{FJHBJLFRA1}
+  \field{sortinit}{F}
+  \verb{doi}
+  \verb 10.1145/355744.355745
+  \endverb
+  \field{issn}{0098-3500}
+  \field{number}{3}
+  \field{pages}{209\bibrangedash 226}
+  \field{title}{An Algorithm for Finding Best Matches in Logarithmic Expected
+  Time}
+  \verb{url}
+  \verb http://doi.acm.org/10.1145/355744.355745
+  \endverb
+  \field{volume}{3}
+  \list{location}{1}{%
+    {New York, NY, USA}%
+  }
+  \field{journaltitle}{ACM Trans. Math. Softw.}
+  \field{month}{09}
+  \field{year}{1977}
+\endentry
+
+\entry{manyBalltrees}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Liu}{L.}%
+     {Ting}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moore}{M.}%
+     {Andrew~W}{A.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gray}{G.}%
+     {Alexander}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{LTMAWGA1}
+  \strng{fullhash}{LTMAWGA1}
+  \field{sortinit}{L}
+  \field{number}{Jun}
+  \field{pages}{1135\bibrangedash 1158}
+  \field{title}{New algorithms for efficient high-dimensional nonparametric
+  classification}
+  \field{volume}{7}
+  \field{journaltitle}{Journal of Machine Learning Research}
+  \field{year}{2006}
+\endentry
+
+\entry{mitSupportVectorMachine}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wilson}{W.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WP1}
+  \strng{fullhash}{WP1}
+  \field{sortinit}{W}
+  \field{title}{16. Learning: Support Vector Machines}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=_PwhiWxHK8o
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{autoEncoding}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wilson}{W.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WP1}
+  \strng{fullhash}{WP1}
+  \field{sortinit}{W}
+  \field{title}{Lecture 12b: Deep Neural Nets}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=VrMHA3yX_QI
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\entry{mitNeuralNetwork}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wilson}{W.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WP1}
+  \strng{fullhash}{WP1}
+  \field{sortinit}{W}
+  \field{title}{Lecture 12b: Neural Nets}
+  \verb{url}
+  \verb https://www.youtube.com/watch?v=VrMHA3yX_QI
+  \endverb
+  \field{year}{2016}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
