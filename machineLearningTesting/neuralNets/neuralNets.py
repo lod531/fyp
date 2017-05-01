@@ -36,7 +36,7 @@ for i in range(0, 50):
 
 parameter_grid = [{'hidden_layer_sizes': layers}]
 
-hyperParameterSelector = GridSearchCV(MLPClassifier(10), param_grid = parameter_grid, n_jobs = 2)
+hyperParameterSelector = GridSearchCV(MLPClassifier(10), param_grid = parameter_grid, n_jobs = 1)
 
 hyperParameterSelector.fit(trainingData, trainingLabels)
 

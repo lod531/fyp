@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.5)  24 APR 2017 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.5)  1 MAY 2017 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -490,25 +490,21 @@ File: images/coinAxis2.png Graphic file (type png)
 <use images/coinAxis2.png>
 Package pdftex.def Info: images/coinAxis2.png used on input line 81.
 (pdftex.def)             Requested size: 390.0pt x 100.08006pt.
-
-<images/nearestNeighbour.png, id=27, 985.6825pt x 393.47pt>
+ [5 <./images/coinAxis.png> <./images/coinAxis2.png>] <images/nearestNeighbour.
+png, id=32, 985.6825pt x 393.47pt>
 File: images/nearestNeighbour.png Graphic file (type png)
 
 <use images/nearestNeighbour.png>
 Package pdftex.def Info: images/nearestNeighbour.png used on input line 89.
 (pdftex.def)             Requested size: 390.0pt x 155.6801pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./images/coinAxis.png> <./images/coinAxis2.png>] [6 <./images/nearestNeighb
-our.png>] <images/twoAxes.png, id=37, 1055.945pt x 644.4075pt>
+ [6 <./images/nearestNeighbour.png>]
+<images/twoAxes.png, id=37, 1055.945pt x 644.4075pt>
 File: images/twoAxes.png Graphic file (type png)
-
-<use images/twoAxes.png>
+ <use images/twoAxes.png>
 Package pdftex.def Info: images/twoAxes.png used on input line 106.
 (pdftex.def)             Requested size: 390.0pt x 238.00423pt.
- [7 <./images/twoAxes.png>] [8] [9]
+
+[7 <./images/twoAxes.png>] [8] [9]
 <images/kdTreeFirstDivision.png, id=50, 1206.5075pt x 564.1075pt>
 File: images/kdTreeFirstDivision.png Graphic file (type png)
 
@@ -601,34 +597,99 @@ File: images/betterClassifier.png Graphic file (type png)
 <use images/betterClassifier.png>
 Package pdftex.def Info: images/betterClassifier.png used on input line 365.
 (pdftex.def)             Requested size: 390.0pt x 303.0747pt.
- [27 <./images/betterClassifier.png>]
-Overfull \hbox (0.27626pt too wide) in paragraph at lines 373--373
-[]\OT1/cmr/m/n/12 Yaser Abu-Mostafa. \OT1/cmr/m/it/12 Lec-ture 09 - The Lin-ear
- Model II\OT1/cmr/m/n/12 . 2012. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cm
-tt/m/n/12 https :
+ [27 <./images/betterClassifier.png>] [28]
+<images/mildlyInseparable.png, id=140, 1553.805pt x 1207.51125pt>
+File: images/mildlyInseparable.png Graphic file (type png)
+
+<use images/mildlyInseparable.png>
+Package pdftex.def Info: images/mildlyInseparable.png used on input line 387.
+(pdftex.def)             Requested size: 390.0pt x 303.0747pt.
+ [29 <./images/mildlyInseparable.png>]
+[30] <images/preTransformationSpace.png, id=148, 2658.93375pt x 2655.9225pt>
+File: images/preTransformationSpace.png Graphic file (type png)
+
+<use images/preTransformationSpace.png>
+Package pdftex.def Info: images/preTransformationSpace.png used on input line 4
+07.
+(pdftex.def)             Requested size: 390.0pt x 389.53651pt.
+ [31 <./images/preTransformationSpace.png>] <images/postTransformationSpace.png
+, id=154, 1553.805pt x 1478.52374pt>
+File: images/postTransformationSpace.png Graphic file (type png)
+
+<use images/postTransformationSpace.png>
+Package pdftex.def Info: images/postTransformationSpace.png used on input line 
+417.
+(pdftex.def)             Requested size: 390.0pt x 371.09645pt.
+ [32 <./images/postTransformationSpace.png>] [33] <images/weakStrongClassifiers
+.png, id=162, 1436.36626pt x 337.26pt>
+File: images/weakStrongClassifiers.png Graphic file (type png)
+
+<use images/weakStrongClassifiers.png>
+Package pdftex.def Info: images/weakStrongClassifiers.png used on input line 43
+4.
+(pdftex.def)             Requested size: 390.0pt x 91.57088pt.
+ [34 <./images/weakStrongClassifiers.png>] <images/boosting0.png, id=167, 1553.
+805pt x 1213.53375pt>
+File: images/boosting0.png Graphic file (type png)
+
+<use images/boosting0.png>
+Package pdftex.def Info: images/boosting0.png used on input line 444.
+(pdftex.def)             Requested size: 390.0pt x 304.5863pt.
+
+<images/boosting1.png, id=168, 1553.805pt x 1213.53375pt>
+File: images/boosting1.png Graphic file (type png)
+
+<use images/boosting1.png>
+Package pdftex.def Info: images/boosting1.png used on input line 457.
+(pdftex.def)             Requested size: 390.0pt x 304.5863pt.
+ [35 <./images/boosting0.png>] [36 <./images/boosting1.png>] <images/boosting2.
+png, id=177, 1553.805pt x 1213.53375pt>
+File: images/boosting2.png Graphic file (type png)
+
+<use images/boosting2.png>
+Package pdftex.def Info: images/boosting2.png used on input line 467.
+(pdftex.def)             Requested size: 390.0pt x 304.5863pt.
+ [37 <./images/boosting2.png>]
+<images/boosting3.png, id=183, 1553.805pt x 1213.53375pt>
+File: images/boosting3.png Graphic file (type png)
+
+<use images/boosting3.png>
+Package pdftex.def Info: images/boosting3.png used on input line 477.
+(pdftex.def)             Requested size: 390.0pt x 304.5863pt.
+ [38 <./images/boosting3.png>]
+<images/boosting4.png, id=188, 1553.805pt x 1213.53375pt>
+File: images/boosting4.png Graphic file (type png)
+
+<use images/boosting4.png>
+Package pdftex.def Info: images/boosting4.png used on input line 487.
+(pdftex.def)             Requested size: 390.0pt x 304.5863pt.
+ [39 <./images/boosting4.png>]
+<images/boosting5.png, id=193, 1553.805pt x 1213.53375pt>
+File: images/boosting5.png Graphic file (type png)
+
+<use images/boosting5.png>
+Package pdftex.def Info: images/boosting5.png used on input line 497.
+(pdftex.def)             Requested size: 390.0pt x 304.5863pt.
+ [40 <./images/boosting5.png>] [41] [42]
+Overfull \hbox (0.17764pt too wide) in paragraph at lines 519--519
+\OT1/cmtt/m/n/12 / / ocw . mit . edu / courses / electrical -[] engineering -[]
+ and -[] computer -[]
  []
 
-
-Overfull \hbox (10.54pt too wide) in paragraph at lines 373--373
-[]\OT1/cmr/m/n/12 Patrick Wil-son. \OT1/cmr/m/it/12 16. Learn-ing: Sup-port Vec
--tor Ma-chines\OT1/cmr/m/n/12 . 2014. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\O
-T1/cmtt/m/n/12 https :
- []
-
-[28] [29] (./report.aux)
+[43] [44] (./report.aux)
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  )
 (\end occurred when \iftrue on line 11 was incomplete) 
 Here is how much of TeX's memory you used:
- 7754 strings out of 494953
- 125329 string characters out of 6180978
- 269400 words of memory out of 5000000
- 10933 multiletter control sequences out of 15000+600000
+ 7813 strings out of 494953
+ 126890 string characters out of 6180978
+ 270400 words of memory out of 5000000
+ 10982 multiletter control sequences out of 15000+600000
  13007 words of font info for 47 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,8n,48p,818b,960s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,48p,823b,960s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts
@@ -643,10 +704,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (29 pages, 1164642 bytes).
+Output written on report.pdf (44 pages, 2235765 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 108 compressed objects within 2 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
